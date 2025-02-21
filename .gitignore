@@ -1,0 +1,65 @@
+# Ignore the virtual environment
+venv/
+.env
+
+# Byte-compiled / cached Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Dependency management files
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# Conda environments
+*.conda
+*.yml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore compiled binary files
+*.so
+*.out
+*.exe
+
+# Ignore dataset and cache files
+*.csv
+*.tsv
+*.parquet
+*.h5
+
+# Ignore secret environment files
+*.env
+.env.local
+.env.test
+.env.production
+
+# Ignore large media files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.zip
+*.tar
+*.gz
+
+# Ignore temporary files
+*.swp
+*.swo
+*~
